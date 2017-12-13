@@ -15,7 +15,10 @@ s.source           = { :git => 'https://github.com/instachk/ios-offers-sdk.git',
 
 s.ios.deployment_target = '10.3'
 
-s.source_files = 'InstachkOffers/Classes/**/*'
+# s.source_files = 'InstachkOffers/Classes/**/*'
+
+s.source       = { :git => "https://github.com/instachk/ios-offers-sdk.git", :tag => s.version }
+s.source_files  = 'Classes/*.{h,m,swift}'
 
 # s.resource_bundles = {
 #   'InstachkOffers' => ['InstachkOffers/Assets/*.png']
