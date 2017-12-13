@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'InstachkOffers'
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 s.summary          = 'Instachk SDK to render nearby offers'
 s.description      = <<-DESC
 Instachk offers SDK lets you display nearby offers
@@ -14,11 +14,8 @@ s.source           = { :git => 'https://github.com/instachk/ios-offers-sdk.git',
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '10.3'
+s.source_files = 'InstachkOffers/Classes/**/*'
 
-# s.source_files = 'InstachkOffers/Classes/**/*'
-
-s.source       = { :git => "https://github.com/instachk/ios-offers-sdk.git", :tag => s.version }
-s.source_files  = 'Classes/*.{h,m,swift}'
 
 # s.resource_bundles = {
 #   'InstachkOffers' => ['InstachkOffers/Assets/*.png']
